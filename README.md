@@ -2,6 +2,19 @@
 
 Disclaimer: This component was built by the community at large and is not an official Coveo JSUI Component. Use this component at your own risk.
 
+## Component Options
+
+| Option | Default |
+|------  | ------- |
+| title  | 'Popular Queries' |
+| searchHub | 'default' |
+| pipeline | 'default'  |
+| count | 5 |
+
+## Screenshot
+
+![Example Image](images/image.png )
+
 ## Getting Started
 
 1. Install the component into your project.
@@ -45,6 +58,7 @@ Place the component in your markup:
 ```html
 <div class="CoveoPopularQueries"></div>
 ```
+
 
 ## Extending
 

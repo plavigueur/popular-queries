@@ -1,3 +1,26 @@
 .CoveoPopularQueries {
-    // Styles here
+  .coveo-popular-queries-container {
+    margin: 10px 0;
+    padding: 0;
+    position: relative;
+    border: thin solid #bcc3ca;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+
+  .coveo-result-frame {
+    padding: 5px;
+  }
+
+  .coveo-result-cell.coveo-popular-queries-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .coveo-result-cell.coveo-popular-queries-result {
+    padding-left: 10px;
+  }
 }
