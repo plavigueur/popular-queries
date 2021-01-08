@@ -2,6 +2,11 @@
 
 Disclaimer: This component was built by the community at large and is not an official Coveo JSUI Component. Use this component at your own risk.
 
+## Description
+
+This component can be used to display popular queries. It does this by making a call to query suggest with an empty string parameter which usually returns queries that are
+trending. A `Pipeline` and `SearchHub` can be set as well as th `Title` displayed in the header and the maximum number of results to show.
+
 ## Component Options
 
 | Option | Default |
